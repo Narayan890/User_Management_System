@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    margin: auto;
+}
+
+.nav-brand {
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+
+#header nav {
+    background-color: #1C2833;
+    width: 100%;
+    padding: 1em;
+}
+
+#main {
+    margin-top: 3em;
+}
+
+#main .container .box a {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 1.5em;
+    padding: .5em 1em;
+    color: black;
+    text-decoration: none;
+}
+
+#main .container .box a:hover {
+    background-color: #39C39D;
+}
+
+.table {
+    margin-top: 2em;
+}
+
+.table td,
+.table th {
+    text-align: center;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.table tbody tr:hover {
+    background-color: #39C39D;
+}
+
+.table tr td a {
+    color: black;
+    box-shadow: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-decoration: none;
+}
+
+
+/*Add user and update user Styling*/
+
+#update-user .form-group label,
+#add-user .form-group label {
+    font-weight: 2em;
+    font-size: 1.2em;
+}
+
+#main1 {
+    margin-top: 3em;
+}
+
+#main1 .container {
+    width: 500px;
+}
+
+#main1 .container .box a {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 1.5em;
+    padding: .3em 1em;
+    color: black;
+    text-decoration: none;
+}
+
+#main1 .container .box a:hover {
+    background-color: #39C39D;
+}
+
+#update-user,
+#add-user {
+    margin-top: 1em;
+}
+
+#update-user .form-group .radio-inline,
+#add-user .form-group .radio-inline {
+    margin: 1em 2em;
+    ;
+}
+
+#update-user .form-group .btn,
+#add-user .form-group .btn {
+    width: 100%;
+    font-size: 1.3em;
+}
+
+#update-user .form-group .btn:hover,
+#add-user .form-group .btn:hover {
+    background-color: green;
+}
